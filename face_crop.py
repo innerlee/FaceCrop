@@ -6,9 +6,9 @@ import argparse
 from PIL import Image, ExifTags
 
 parser = argparse.ArgumentParser(description='Crop faces from photo')
-parser.add_argument('--in_dir', help='path to input dir')
-parser.add_argument('--out_dir', default='out', help='path to output dir')
-parser.add_argument('--max_size', type=int, default=512, help='max size of output image')
+parser.add_argument('--in-dir', help='path to input dir')
+parser.add_argument('--out-dir', default='out', help='path to output dir')
+parser.add_argument('--max-size', type=int, default=512, help='max size of output image')
 args = parser.parse_args()
 
 os.makedirs(args.out_dir, exist_ok=True)
