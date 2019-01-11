@@ -2,6 +2,8 @@
 
 ### Usage
 
+![Demo](content/demo.png)
+
 ```bash
 ./face_crop.py --in-dir sample --out-dir output
 ```
