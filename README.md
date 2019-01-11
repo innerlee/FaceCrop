@@ -2,7 +2,7 @@
 
 ### Usage
 
-![Demo](content/demo.png)
+<img src="content/demo.png" width="600" title="Demo">
 
 ```bash
 ./face_crop.py --in-dir sample --out-dir output
